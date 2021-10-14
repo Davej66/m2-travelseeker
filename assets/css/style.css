@@ -13,6 +13,86 @@
     padding-right: 0; 
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    font-size: 1rem;
+    color: #FAC16B;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+.section-head {
+    background-color: #fbfbfb;
+    text-align: center;
+}
+
+.subhead {
+        text-align: center;
+}
+
+.bg-color-main {
+    padding-right: 1rem;
+    background-color: #0B2222;
+}
+
+.font-color-main-light {
+    font-family: "Roboto", sans-serif;
+    color:#0B2222;
+    background-color: #fbfbfb;
+}
+
+.backing-light {
+    background-color: #fbfbfb;
+}
+
+.font-color-main-dark {
+    font-family: "Roboto", sans-serif;
+    color: #FAC16B;
+}
+
+
+.section-head {
+    padding-top: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* logo */
 
 .logo {
