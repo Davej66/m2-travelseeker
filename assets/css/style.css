@@ -136,3 +136,59 @@ p {
     color: #f1ef5e;
     transition-duration: .5s;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------Footer */
+
+footer {
+    font-size: 75%;
+    background-color: #0B2222;
+    color: #FAC16B;
+    min-height: .01rem;
+    margin: 0;
+}
+
+.social-links {
+    padding-bottom: 1rem;
+}
+
+.social-links li a i {
+    width: 2rem;
+    height: 2rem;
+    padding: 0.75rem 0;
+    border-radius: 50%;
+    font-size: 1rem;
+    line-height: 0.5rem;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #FAC16B;
+}
+
+#footer-details {
+    padding: 1rem;
+}
+
