@@ -5,7 +5,7 @@ let markers = [];
 let autocomplete;
 const countryRestrict = { country: "us" };
 const MARKER_PATH =
-  "https://developers.google.com/maps/documentation/javascript/images/marker_red";
+  "https://developers.google.com/maps/documentation/javascript/images/marker_green";
 const hostnameRegexp = new RegExp("^https?://.+?/");
 const countries = {
   au: {
@@ -88,3 +88,18 @@ function initMap() {
   .getElementById("country")
   .addEventListener("change", setAutocompleteCountry);
 }
+
+function onPlaceChanged() {
+  const place = autocomplete.getPlace();
+  
+  if (place.geometry && place.geometry.location) {
+    map.panTo(place.geometry.location);
+    map.setZoom(15);
+    search();
+   
+  } else {
+    document.getElementById("autocomplete").placeholder = "Enter a city";
+  }
+  document.getElementById('autocomplete').value = "";
+}
+
