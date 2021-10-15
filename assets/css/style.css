@@ -88,9 +88,11 @@ html,
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        left: 0;
-        position: absolute;
-        top: 290px;
+        left: 10%;
+        top: 0%;
+        /*left: 0;*/
+        position: relative;
+        /*top: 290px;*/
         width: 440px;
         z-index: 1;
       }
@@ -101,12 +103,14 @@ html,
       }
       
       #listing {
-        position: absolute;
+        position: relative;
         width: 200px;
         height: 370px;
         overflow: auto;
-        left: 842px;
-        top: 310px;
+        top: -50%;
+        left: 56%;
+        /*left: 842px;
+        top: 310px;*/
         cursor: pointer;
         overflow-x: hidden;
       }
