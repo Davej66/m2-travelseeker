@@ -205,3 +205,20 @@ function clearResults() {
   }
 }
 
+function showInfoWindow() {
+  const marker = this;
+
+  places.getDetails(
+    { placeId: marker.placeResult.place_id },
+    (place, status) => {
+      if (status !== google.maps.places.PlacesServiceStatus.OK) {
+        return;
+      }
+
+      infoWindow.open(map, marker);
+      buildIWContent(place);
+      
+    }
+  );
+}
+
