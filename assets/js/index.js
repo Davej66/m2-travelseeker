@@ -5,7 +5,7 @@ let markers = [];
 let autocomplete;
 const countryRestrict = { country: "us" };
 const MARKER_PATH =
-  "https://developers.google.com/maps/documentation/javascript/images/marker_green";
+  "https://developers.google.com/maps/documentation/javascript/images/marker_red";
 const hostnameRegexp = new RegExp("^https?://.+?/");
 const countries = {
   au: {
