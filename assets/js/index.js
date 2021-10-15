@@ -103,3 +103,105 @@ function onPlaceChanged() {
   document.getElementById('autocomplete').value = "";
 }
 
+function search() {
+  
+  const search = {
+    bounds: map.getBounds(),
+    types: [document.getElementById("searchX").value],
+  };
+  
+  places.nearbySearch(search, (results, status, pagination) => {
+    if (status === google.maps.places.PlacesServiceStatus.OK && results) {
+      clearResults();
+      clearMarkers();
+
+       
+      for (let i = 0; i < results.length; i++) {
+        const markerLetter = String.fromCharCode("A".charCodeAt(0) + (i % 26));
+        const markerIcon = MARKER_PATH + markerLetter + ".png";
+
+       
+        markers[i] = new google.maps.Marker({
+          position: results[i].geometry.location,
+          animation: google.maps.Animation.DROP,
+          icon: markerIcon,
+        });
+       
+        markers[i].placeResult = results[i];
+        google.maps.event.addListener(markers[i], "click", showInfoWindow);
+        setTimeout(dropMarker(i), i * 100);
+        addResult(results[i], i);
+      }
+    }
+  });
+}
+
+function clearMarkers() {
+  for (let i = 0; i < markers.length; i++) {
+    if (markers[i]) {
+      markers[i].setMap(null);
+    }
+  }
+
+  markers = [];
+}
+
+function setAutocompleteCountry() {
+  const country = document.getElementById("country").value;
+
+  if (country == "all") {
+    autocomplete.setComponentRestrictions({ country: [] });
+    map.setCenter({ lat: 15, lng: 0 });
+    map.setZoom(2);
+  } else {
+    autocomplete.setComponentRestrictions({ country: country });
+    map.setCenter(countries[country].center);
+    map.setZoom(countries[country].zoom);
+  }
+
+  clearResults();
+  clearMarkers();
+}
+
+function dropMarker(i) {
+  return function () {
+    markers[i].setMap(map);
+  };
+}
+
+function addResult(result, i) {
+  const results = document.getElementById("results");
+  const markerLetter = String.fromCharCode("A".charCodeAt(0) + (i % 26));
+  const markerIcon = MARKER_PATH + markerLetter + ".png";
+  const tr = document.createElement("tr");
+
+  tr.style.backgroundColor = i % 2 === 0 ? "#F0F0F0" : "#FFFFFF";
+  tr.onclick = function () {
+    google.maps.event.trigger(markers[i], "click");
+  };
+
+  const iconTd = document.createElement("td");
+  const nameTd = document.createElement("td");
+  const icon = document.createElement("img");
+
+  icon.src = markerIcon;
+  icon.setAttribute("class", "placeIcon");
+  icon.setAttribute("className", "placeIcon");
+
+  const name = document.createTextNode(result.name);
+
+  iconTd.appendChild(icon);
+  nameTd.appendChild(name);
+  tr.appendChild(iconTd);
+  tr.appendChild(nameTd);
+  results.appendChild(tr);
+}
+
+function clearResults() {
+  const results = document.getElementById("results");
+
+  while (results.childNodes[0]) {
+    results.removeChild(results.childNodes[0]);
+  }
+}
+
