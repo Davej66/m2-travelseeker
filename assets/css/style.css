@@ -99,7 +99,8 @@ html,
       
       #map {
         margin-top: 40px;
-        width: 840px;
+        width: 454px;
+        margin-left: 20px;
       }
       
       #listing {

@@ -70,6 +70,8 @@ function initMap() {
     panControl: false,
     zoomControl: false,
     streetViewControl: false,
+    mapTypeId: 'roadmap'
+    
   });
   infoWindow = new google.maps.InfoWindow({
     content: document.getElementById("info-content"),
@@ -167,6 +169,7 @@ function dropMarker(i) {
   return function () {
     markers[i].setMap(map);
   };
+
 }
 
 function addResult(result, i) {
