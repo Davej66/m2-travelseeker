@@ -62,8 +62,10 @@ const countries = {
   },
 };
 
+
 function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
+ 
     zoom: countries["us"].zoom,
     center: countries["us"].center,
     mapTypeControl: false,
@@ -89,6 +91,7 @@ function initMap() {
   document
   .getElementById("country")
   .addEventListener("change", setAutocompleteCountry);
+  
 }
 
 function onPlaceChanged() {
@@ -136,6 +139,7 @@ function search() {
       }
     }
   });
+  
 }
 
 function clearMarkers() {
@@ -272,3 +276,4 @@ function buildIWContent(place) {
     document.getElementById("iw-website-row").style.display = "none";
   }
 }
+

@@ -73,60 +73,60 @@
 
     <!---Search-->
       
-    <div class="hotel-search">
-      
-      
+    <section class="container-fluid hotel-search"> 
+      <div class="row">
+        <div class="col-md-12 col-md-4 col-sm-8">  
 
-      <div id="controls">
-        <select id="searchX">
-          <option value="lodging">Accomadation</option>
-          <option value="restaurant">Places to eat</option>
-          <option value="tourist_attraction">Points of Interest</option>
-         
-        </select>
+          <div id="controls">
+            <select id="searchX">
+              <option value="lodging">Accomadation</option>
+              <option value="restaurant">Places to eat</option>
+              <option value="tourist_attraction">Points of Interest</option>
+            </select>
 
+            <select id="country">
+              <option value="all">All</option>
+              <option value="au">Australia</option>
+              <option value="br">Brazil</option>
+              <option value="ca">Canada</option>
+              <option value="fr">France</option>
+              <option value="de">Germany</option>
+              <option value="mx">Mexico</option>
+              <option value="nz">New Zealand</option>
+              <option value="it">Italy</option>
+              <option value="za">South Africa</option>
+              <option value="es">Spain</option>
+              <option value="pt">Portugal</option>
+              <option value="us" selected>U.S.A.</option>
+              <option value="uk">United Kingdom</option>
+            </select>
+          </div>
 
-
-
-        <select id="country">
-          <option value="all">All</option>
-          <option value="au">Australia</option>
-          <option value="br">Brazil</option>
-          <option value="ca">Canada</option>
-          <option value="fr">France</option>
-          <option value="de">Germany</option>
-          <option value="mx">Mexico</option>
-          <option value="nz">New Zealand</option>
-          <option value="it">Italy</option>
-          <option value="za">South Africa</option>
-          <option value="es">Spain</option>
-          <option value="pt">Portugal</option>
-          <option value="us" selected>U.S.A.</option>
-          <option value="uk">United Kingdom</option>
-        </select>
+          <div class="col-12">  
+            <div id="findhotels">  Find in:</div>
+              <div id="locationField">
+                <input id="autocomplete" placeholder="Enter a city" type="text" />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+    </section>
 
-      <div id="findhotels">Find hotels in:</div>
+    <section class="container-fluid "> 
+      <div class="row">
+        <div class="col-8">  
+          <div id="map"></div>
+        </div>
+   
+        <!--<div class="col-4 testcv">--> 
+          <div id="listing">
+            <table id="resultsTable">
+              <tbody id="results"></tbody>
+            </table>
+          </div>
+          
 
-      <div id="locationField">
-          <input id="autocomplete" placeholder="Enter a city" type="text" />
-      </div>
-      </div>
-    </div>
-  </div>
-
-
-
-    <div id="container">
-      <div id="map"></div>
-    </div>
-  
-
-    <div id="listing">
-      <table id="resultsTable">
-        <tbody id="results"></tbody>
-      </table>
-    </div>
 
     <div style="display: none">
       <div id="info-content">
@@ -154,13 +154,16 @@
         </table>
       </div>
     </div>
+  </div>
+<!--</div>-->
+</section>
   
 
 
-    <iframe
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYWVSgu5LSl8BmZLTpWVqjaEk8C7c2wD8&callback=initMap&libraries=places&v=weekly&output=embed"
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYWVSgu5LSl8BmZLTpWVqjaEk8C7c2wD8&callback=initMap&libraries=places&v=weekly"
         async
-      ></iframe>
+      ></script>
 
 
 

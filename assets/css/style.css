@@ -62,7 +62,7 @@ p {
 /**Map**/
 
 #map {
-  height: 95%;
+  height: 100%;
 }
 
 html,
@@ -88,18 +88,18 @@ html,
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        left: 10%;
-        top: 0%;
+        left: 10px;
+        top: 0;
         /*left: 0;*/
         position: relative;
         /*top: 290px;*/
-        width: 440px;
+        width: 340px;
         z-index: 1;
       }
       
       #map {
-        margin-top: 40px;
-        width: 454px;
+        margin-top: 20px;
+        width: 950px;
         margin-left: 20px;
       }
       
@@ -108,10 +108,10 @@ html,
         width: 200px;
         height: 370px;
         overflow: auto;
-        top: -50%;
-        left: 56%;
-        /*left: 842px;
-        top: 310px;*/
+        /*top: -50%;
+        left: 56%;*/
+        left: 02px;
+        top: 10px;
         cursor: pointer;
         overflow-x: hidden;
       }
@@ -179,6 +179,31 @@ html,
         height: 50%;
         display: flex;
       }
+
+      /* For Mobile */
+@media screen and (max-width: 539px) {
+    #map {
+      margin-top: 40px;
+      width: 300px;
+      margin-left: 20px;
+    }
+    #results {
+       display: none;
+    }
+    #listing {
+      width: 0px;
+    }
+    #resultsTable {
+      width: 0px;
+    }
+}
+
+/* For Tablets */
+@media screen and (min-width: 540px) and (max-width: 780px) {
+  #map {
+      width: 500px;
+  }
+}
 
 
 
