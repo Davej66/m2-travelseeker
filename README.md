@@ -188,10 +188,9 @@ I also used the following to fine tune the process;
 - *Fix* - When reviewing the code and referring to the course and w3schools I used the @media to revise the google map width.
 - *Verdict* - The google map is now reponsive in mobile devices.
 
-#### PDF Download
+#### Google Map
 
-- *Bug* -The download function in the Schedule section of the gym's classes timetable worked correctly opening a pdf in new page when in the dev environment but when deployed 
-  a 404 is displayed in the new page.
+- *Bug* -The standard map returne after the search also contains markers for businesses and points of interests which could cause the user confusion..
 - *Fix* - It was identified that a forward slash was the cause of the error and once removed the pdf correcting opened.
  ![image](https://user-images.githubusercontent.com/85559896/126046441-656b736d-758f-428c-b525-b6e258c88a87.png)
  ![image](https://user-images.githubusercontent.com/85559896/126046446-b0af37d1-8405-4263-b0f9-2ad196934eab.png)
