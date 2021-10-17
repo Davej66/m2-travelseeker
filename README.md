@@ -1,1 +1,1 @@
-![] (assets/images/M2-Travelseeker.png)
+![] (/images/M2-Travelseeker.png)
