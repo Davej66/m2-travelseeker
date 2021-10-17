@@ -19,6 +19,7 @@ html {
 
 body {
   background-color: #fbfbfb ;
+  text-align: center;
 }
 
 p {
@@ -119,6 +120,7 @@ html,
         top: 10px;
         cursor: pointer;
         overflow-x: hidden;
+        text-align: justify;
       }
       
       #findhotels {
@@ -207,6 +209,7 @@ html,
 @media screen and (min-width: 540px) and (max-width: 780px) {
   #map {
       width: 500px;
+      height: 450px;
   }
 }
 

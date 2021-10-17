@@ -75,16 +75,19 @@
       
     <section class="container-fluid hotel-search"> 
       <div class="row">
-        <div class="col-md-12 col-md-4 col-sm-8  section-head">  
+        <div class="col-md-12 col-md-4 col-sm-8 section-head">  
 
           <div id="controls section-head">
             <select id="searchX">
-              <option value="lodging">Accomadation</option>
+              
+              <option value="lodging">Accommodation</option>
               <option value="restaurant">Places to eat</option>
               <option value="tourist_attraction">Points of Interest</option>
             </select>
-
-            <select id="country">
+          </div>
+          
+          <div id="section-head">
+            <select  id="country""> 
               <option value="all">All</option>
               <option value="au">Australia</option>
               <option value="br">Brazil</option>
@@ -102,7 +105,7 @@
             </select>
           </div>
 
-          <div class="col-12">  
+          <div class="col-12">
             <!--<div id="findhotels">  Find in:</div>-->
                 <input id="autocomplete" placeholder="Enter a city" type="text" />
               </div>
@@ -118,12 +121,13 @@
           <div id="map"></div>
         </div>
    
-        <!--<div class="col-4 testcv section-head">--> 
+        <div class="col-4 testcv section-head"> 
           <div id="listing">
             <table id="resultsTable">
               <tbody id="results"></tbody>
             </table>
           </div>
+          <div>
           
 
 
