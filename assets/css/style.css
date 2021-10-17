@@ -3,7 +3,7 @@
 /* Global settings */
 
 .g-bk-color {
-    background-color: #EFA461;
+    background-color: #44b9f0;
     padding-left: 0;
     padding-right: 0;
 }
@@ -98,7 +98,8 @@ html,
       }
       
       #map {
-        margin-top: 20px;
+        height: 350px;
+        margin-top: 10px;
         width: 950px;
         margin-left: 20px;
       }
@@ -106,7 +107,7 @@ html,
       #listing {
         position: relative;
         width: 200px;
-        height: 370px;
+        height: 350px;
         overflow: auto;
         /*top: -50%;
         left: 56%;*/
@@ -243,6 +244,7 @@ html,
 /* logo */
 
 .logo {
+    padding-top: 1rem;
     max-width:19rem;
     display: block;
     margin-left: auto;
@@ -264,12 +266,12 @@ html,
 }
 
 .navbar {
-    background-color: #EFA461;
+    background-color: #44b9f0;
 }
 
 .nav-item {
     font-family: "Roboto", sans-serif;
-    background-color: #EFA461;
+    background-color: #44b9f0;
 }
 
 .navbar-dark .navbar-nav .nav-link {
