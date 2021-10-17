@@ -72,8 +72,7 @@ function initMap() {
     panControl: false,
     zoomControl: false,
     streetViewControl: false,
-    mapTypeId: 'roadmap'
-    
+    mapTypeId: 'satellite'
   });
   infoWindow = new google.maps.InfoWindow({
     content: document.getElementById("info-content"),
