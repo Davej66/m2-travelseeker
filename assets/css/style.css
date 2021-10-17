@@ -17,6 +17,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+  background-color: #fbfbfb ;
+}
+
 p {
     font-size: 1rem;
     color: #FAC16B;
@@ -84,7 +88,7 @@ html,
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
-        background: #fff;
+        background: #fbfbfb;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -276,7 +280,7 @@ html,
 
 .navbar-dark .navbar-nav .nav-link {
     font-family: "Roboto", sans-serif;
-    color: #000000;
+    color: #FFA500;
 }
 
 .navbar-dark,
