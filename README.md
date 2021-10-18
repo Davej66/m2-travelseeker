@@ -1,14 +1,12 @@
-![GitHub Logo] (../assets/images/M2-Travelseeker.png)
-
 
 # TravelSeeker
 
-![image](https://user-images.githubusercontent.com/85559896/125904016-89fec847-0159-4816-8681-4a443c29799a.png)
+![image](/assets/images/TravelseekerPage.png)
 
 
 ## Objectives of the project
-The objective of the website is point the user to accommodation, places to eat and places of interest in the selected city.  
-
+The objective of the website is point the user to accommodation, places to eat and places of interest in the selected city. 
+                `
 ## UX
 
 It will be available for user from all over thw world as the results offered from the search
@@ -77,60 +75,50 @@ For my website I chose to use [Bootstrap](https://getbootstrap.com/). Bootstrap 
 
 ## Wireframes
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Desktop &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Tablet &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Mobile  
-![wireframes](https://user-images.githubusercontent.com/85559896/126038379-6d1148af-25cf-4d56-bf0b-9d3086952eef.png)
+![image](./assets/images/M2-Travelseeker.png)
 
 ## Features
 ### Existing Features
 #### Navigation
-![image](https://user-images.githubusercontent.com/85559896/126043192-2d47a74f-17bd-456c-b2e0-82fad1a40c0d.png)
-
+![image](https://user-images.githubusercontent.com/85559896/137723662-617bf418-241f-417d-b2b8-0afd5730ac5e.png)
 Using Bootstrap and keeping its styling consistent ith the rest of the website the navbar. The navbar is responsive with a collapsible menu, accessed via a burger icon.
 The 'sticky' in position gives a professional and pleasing style for the website.
 The returned information is accessed using a google maps key that accesse local information for those from google places.
 
 #### About Us
-![image](https://user-images.githubusercontent.com/85559896/126043198-0c955a75-2a78-4553-a3b5-4b61db686877.png)
+![image](https://user-images.githubusercontent.com/85559896/137724170-5b7886fb-e37e-4a28-895d-3d1cb4331f46.png)
 
  In bootstrap a single column has been created and a brief statement about the gym.
 
-#### Gallery
-![image](https://user-images.githubusercontent.com/85559896/126043617-164b2a80-d187-49a5-9ea5-b442a62a8970.png)
+#### Search
+![image](https://user-images.githubusercontent.com/85559896/137724246-ac944bc1-7900-47bb-a3fc-6b54cb359935.png)
 
 A header and sub-header have been added to display some text, in this section bootstrap generates two each sized columns with two rows with a total of 4 images displayed within these. When in *xs* and *small* display two images are hidden to improve the user experience.
 
-#### Classes
-![image](https://user-images.githubusercontent.com/85559896/126050145-7bd10763-c63a-4a29-98b9-f1e76bc64e73.png)
+#### Results
+![image](https://user-images.githubusercontent.com/85559896/137724355-3d92a7e8-a5ce-4de1-b1b4-899b6b39488b.png)
 
  A header is above three equal sized columns with three rows. In column 1 is the text describing classes held at the gym with a sub-header. In columns 2 and three are images reflective of the text beside them a total of six images. When in *xs* and *small* display three images are hidden to improve the user experience.
  
-#### Schedule
-![image](https://user-images.githubusercontent.com/85559896/126045298-932d4c0f-60d3-4349-b6f4-02e9157bd485.png)
 
-A header is above three columns and a single row. The first column (col-md-6) and the further two columns Col-md-3), The first column has the download link with the two other columns have the buttons for booking classes and member login. These features are to be implemented at a later point.  Currently the buttons when actioned will take the user to the contact page using a link until these features have been created.
-
-#### Facilities
-![image](https://user-images.githubusercontent.com/85559896/126045303-4c12bd60-e668-401d-b30a-9aa700c3ff60.png)
-
-A header is above two columns, in column one (col-md-8) and the column two Col-md-4). In column is the text detailing the gyms equipment and facilities, with images supporting this text in column 2.
 
 #### Contact Us
-![image](https://user-images.githubusercontent.com/85559896/126045358-361d1f18-6840-4b74-a840-54d9dcd8e508.png)
+![image](https://user-images.githubusercontent.com/85559896/137724764-fed96e5e-2adc-42d4-854d-92c15ab97fb0.png)
 
 A header is above two columns and a single row. In column one is the address of the gym with a google map of its location below this. The google map used in the contact us section does locate the gym's location correctly because I have used the map from the previous business's map and when launched in a new paged gives this not dissolved business details. This is not ideal and in the update a new google map unique to the gym will be generated from the google map application. 
 
 Below the map are the opening times of the gym. In column two the gym's telephone is again shown to allow the user an opportunity to note the number and contact directly by telephone or to contact the gym using the contact forms provided.
 
 #### Footer
-![image](https://user-images.githubusercontent.com/85559896/126045440-916fd12b-766d-454b-9658-837527ac8103.png)
+![image](https://user-images.githubusercontent.com/85559896/137724906-9fb53f1a-a71e-46a4-a5e7-8cb4c4b44afe.png)
 A single column with a central heading with social media icons below this, these open in a new page when selected.
 
 
 ### Features to be implemented
- * A member's login that allows direct booking of classes or personal trainer sessions.
- * Data submitted by the contact form is correctly actioned.
- * Monthly timetable that can be scrolled through.
- * All customer information is dealt with in accordance of GDPR regulations.
- * Booking classes via online booking.
+ * Resolving the csp issue.
+ * Adding images of the location and facilities searched.
+ * Populate email with details of location selected and venues requsted bu user to be sent to us to taylor apackage for them.
+ * All customer information is dealt with in accordance of GDPR regulations
 
 
 ## Technologies Used
@@ -142,7 +130,6 @@ A single column with a central heading with social media icons below this, these
  * Jquery
  
  ### Libraries
- 
  * [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
  * [Google fonts](https://fonts.google.com/)
  * [Fontawesome](https://fontawesome.com/)
@@ -205,14 +192,14 @@ The project after the completed code has been committed and pushed to GitHub can
 3. Under Source click the drop-down menu labelled None and select Main Branch.
 4. You are then required to choose a folder, either Docs or root. You should select root.
 5. You can now save these selections and the link to the deployed website will be displayed.
-6. The website is live https://davej66.github.io/dfg/ .
+6. The website is live https://davej66.github.io/m2-travelseeker/ .
 
 ### To run the project locally:
 To achieve this by the following process;
 1. Under the repository name and the menu that contains Gitpod click Code.
 2. Select HTTPS the location will already be present.
 3. To the right of this address is an icon once this clicked the location will be cloned.
-4. the clone can be found at this [https://github.com/Davej66/dfg.git](https://github.com/Davej66/dfg.git).
+4. the clone can be found at this [https://github.com/Davej66/m2-travelseeker.git](https://github.com/Davej66/m2-travelseeker.git).
 
 ## Credits
 
