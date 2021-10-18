@@ -1,9 +1,4 @@
-let map;
-let places;
-let infoWindow;
-let markers = [];
-let autocomplete;
-const countryRestrict = { country: "us" };
+const countryRestrict = { country: "uk" };
 const MARKER_PATH =
   "https://developers.google.com/maps/documentation/javascript/images/marker_green";
 const hostnameRegexp = new RegExp("^https?://.+?/");
@@ -62,12 +57,20 @@ const countries = {
   },
 };
 
+let map;
+let places;
+let infoWindow;
+let markers = [];
+let autocomplete;
 
+/**
+ * Initialises google map, 
+ */
 function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
  
-    zoom: countries["us"].zoom,
-    center: countries["us"].center,
+    zoom: countries["uk"].zoom,
+    center: countries["uk"].center,
     mapTypeControl: false,
     panControl: false,
     zoomControl: false,
