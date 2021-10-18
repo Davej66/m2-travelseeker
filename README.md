@@ -61,14 +61,8 @@ The use of icons has been kept the minimum and from the [Fontawesome](https://fo
 
 ### Colours
 The colour scheme used for the website was a green background with golden lettering. I chose these colours because i wanted the user to feel an air of quality and exclusivity, from previous subconscious experience. This colour scheme is like that used by Rolex and Wimbledon tennis tournament (this was underway during the design process). I hoped the clientele for the gym would be familiar with these and connect those entities of quality and would also be associated with the gym.
+![image](https://user-images.githubusercontent.com/85559896/137807331-313b19e1-9869-4a80-9a0a-1d31d3d99447.png)
 
-
-
-![Original palette (DFG)](https://user-images.githubusercontent.com/85559896/126037957-8f84df7a-8b9d-4f85-8568-888c61a50b5b.png)
-
-
-
-![Final palette(DFG)](https://user-images.githubusercontent.com/85559896/126037963-e66dd5c7-931f-488b-8fa9-a4e317cb9327.png)
 
 ### Structure
 For my website I chose to use [Bootstrap](https://getbootstrap.com/). Bootstrap is a library of HTML, CSS & JavaScript, & API's focused on mobile first. As this is the primary format for the website to be displayed it helps improve the website presentation on a mobile device.
