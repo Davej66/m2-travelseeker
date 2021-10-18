@@ -60,9 +60,9 @@ I have used the "Roboto" font from [Google Fonts](https://fonts.google.com/) and
 The use of icons has been kept the minimum and from the [Fontawesome](https://fontawesome.com/) library and use them for social media and a download option.
 
 ### Colours
-The colour scheme used for the website was a green background with golden lettering. I chose these colours because i wanted the user to feel an air of quality and exclusivity, from previous subconscious experience. This colour scheme is like that used by Rolex and Wimbledon tennis tournament (this was underway during the design process). I hoped the clientele for the gym would be familiar with these and connect those entities of quality and would also be associated with the gym.
+The colour scheme used for the website was a blue header with an off-white background colour #fbfbfb with black lettering for 85% of the webpage. I chose these colours because i wanted the user to have a 'blue planet feel' using a #44b9f0 colour.
 ![image](https://user-images.githubusercontent.com/85559896/137807331-313b19e1-9869-4a80-9a0a-1d31d3d99447.png)
-
+The footer containing the social media icons has a black background with the social media icons with a colour #FAC16B. 
 
 ### Structure
 For my website I chose to use [Bootstrap](https://getbootstrap.com/). Bootstrap is a library of HTML, CSS & JavaScript, & API's focused on mobile first. As this is the primary format for the website to be displayed it helps improve the website presentation on a mobile device.
