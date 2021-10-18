@@ -169,8 +169,8 @@ html,
 @media screen and (max-width: 539px) {
     #map {
       margin-top: 120px;
-      width: 250px;
-      margin-left: 30px;
+      width: 320px;
+      left: 1px;
     }
     
     #listing {
