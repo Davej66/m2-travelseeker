@@ -64,7 +64,7 @@ let markers = [];
 let autocomplete;
 
 /**
- * Initialises google map, 
+ * Initialises google map, sets uk as opening location.
  */
 function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
@@ -96,6 +96,10 @@ function initMap() {
   
 }
 
+/**
+ * If a city/location has been selected the search is activated. 
+ */
+
 function onPlaceChanged() {
   const place = autocomplete.getPlace();
   
@@ -110,6 +114,9 @@ function onPlaceChanged() {
   document.getElementById('autocomplete').value = "";
 }
 
+/**
+ * This search returns the values  
+ */
 function search() {
   
   const search = {
@@ -170,7 +177,9 @@ function setAutocompleteCountry() {
   clearResults();
   clearMarkers();
 }
-
+/**
+ * This function drops the marker in the map
+ */
 function dropMarker(i) {
   return function () {
     markers[i].setMap(map);
@@ -213,7 +222,10 @@ function clearResults() {
     results.removeChild(results.childNodes[0]);
   }
 }
-
+/***
+ * Retrieve the place details for a location. Show the information in an info window,
+ * anchored on the marker for the hotel that the user selected
+ */
 function showInfoWindow() {
   const marker = this;
 
@@ -230,7 +242,9 @@ function showInfoWindow() {
     }
   );
 }
-
+/**
+ * Builds the place information into the HTML elements used by the info window
+ */
 function buildIWContent(place) {
   
   document.getElementById("iw-icon").innerHTML =
@@ -246,6 +260,9 @@ function buildIWContent(place) {
     document.getElementById("iw-phone-row").style.display = "none";
   }
 
+/**
+ * Places the star rating for each location in thr infowindow
+ */
   if (place.rating) {
     let ratingHtml = "";
 
@@ -263,6 +280,10 @@ function buildIWContent(place) {
     document.getElementById("iw-rating-row").style.display = "none";
   }
 
+/**
+ * This isolates the first part of the URL (domain plus subdomain)
+  // to give a short URL for displaying in the info window
+ */
   if (place.website) {
     let fullUrl = place.website;
     let website = String(hostnameRegexp.exec(place.website));
