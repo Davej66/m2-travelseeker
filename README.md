@@ -71,7 +71,7 @@ The final colours now for the background are #0B2222 and the text #FAC16B but th
 ![Final palette(DFG)](https://user-images.githubusercontent.com/85559896/126037963-e66dd5c7-931f-488b-8fa9-a4e317cb9327.png)
 
 ### Structure
-For my website I chose to use [Bootstrap](https://getbootstrap.com/). Bootstrap is a library of HTML, CSS & JavaScript, & API's focused on mobile first. As this is the primary format for the website to be displayed it improves that this website will work well on mobile.
+For my website I chose to use [Bootstrap](https://getbootstrap.com/). Bootstrap is a library of HTML, CSS & JavaScript, & API's focused on mobile first. As this is the primary format for the website to be displayed it helps improve the website presentation on a mobile device.
 
 ## Wireframes
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Desktop &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Tablet &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Mobile  
@@ -83,41 +83,35 @@ For my website I chose to use [Bootstrap](https://getbootstrap.com/). Bootstrap 
 ![image](https://user-images.githubusercontent.com/85559896/137723662-617bf418-241f-417d-b2b8-0afd5730ac5e.png)
 Using Bootstrap and keeping its styling consistent ith the rest of the website the navbar. The navbar is responsive with a collapsible menu, accessed via a burger icon.
 The 'sticky' in position gives a professional and pleasing style for the website.
-The returned information is accessed using a google maps key that accesse local information for those from google places.
 
 #### About Us
 ![image](https://user-images.githubusercontent.com/85559896/137724170-5b7886fb-e37e-4a28-895d-3d1cb4331f46.png)
-
- In bootstrap a single column has been created and a brief statement about the gym.
+ In bootstrap a single column has been created and a brief statement about the service prodived by the website.
 
 #### Search
 ![image](https://user-images.githubusercontent.com/85559896/137724246-ac944bc1-7900-47bb-a3fc-6b54cb359935.png)
+There are 3 search criteria type of location, region & city. Type of location & Region have drop down lists and the third uses google places autocomplete to make a selection list. when the city is selected the search automatically starts. The returned information is accessed using a google maps key that accesse local information for those from google places.
 
-A header and sub-header have been added to display some text, in this section bootstrap generates two each sized columns with two rows with a total of 4 images displayed within these. When in *xs* and *small* display two images are hidden to improve the user experience.
 
 #### Results
 ![image](https://user-images.githubusercontent.com/85559896/137724355-3d92a7e8-a5ce-4de1-b1b4-899b6b39488b.png)
-
- A header is above three equal sized columns with three rows. In column 1 is the text describing classes held at the gym with a sub-header. In columns 2 and three are images reflective of the text beside them a total of six images. When in *xs* and *small* display three images are hidden to improve the user experience.
- 
+The map is located to the selected city and markers drop on the map for the chosen criteria, to the right of the map is a listbox of the locations with a corresponding letter on the marker. Clicking on either a marker on the map or a location in the will open an info window over the map, Within this is info box is the location name telephone number website address and star rating. Clicking on the name of the location in the infor-box will ope that locations website in a new tab.
 
 
 #### Contact Us
 ![image](https://user-images.githubusercontent.com/85559896/137724764-fed96e5e-2adc-42d4-854d-92c15ab97fb0.png)
-
-A header is above two columns and a single row. In column one is the address of the gym with a google map of its location below this. The google map used in the contact us section does locate the gym's location correctly because I have used the map from the previous business's map and when launched in a new paged gives this not dissolved business details. This is not ideal and in the update a new google map unique to the gym will be generated from the google map application. 
-
-Below the map are the opening times of the gym. In column two the gym's telephone is again shown to allow the user an opportunity to note the number and contact directly by telephone or to contact the gym using the contact forms provided.
+A contact us button when clicked will open a modal. This curently open to have a form which asks for your forename, surname , email and your enquiry. This is linked the emailJS to generate an email.
+Clicking the close button closes the modal returning the user to website.
 
 #### Footer
 ![image](https://user-images.githubusercontent.com/85559896/137724906-9fb53f1a-a71e-46a4-a5e7-8cb4c4b44afe.png)
-A single column with a central heading with social media icons below this, these open in a new page when selected.
+A single column with a central heading with social media icons below this, these open the relavant social media in a new page when selected.
 
 
 ### Features to be implemented
  * Resolving the csp issue.
- * Adding images of the location and facilities searched.
- * Populate email with details of location selected and venues requsted bu user to be sent to us to taylor apackage for them.
+ * Adding images of the location and the points of interest searched.
+ * Populate email with details of multiple locations selected and venues requested bu user to be sent to us to taylor a package for them.
  * All customer information is dealt with in accordance of GDPR regulations
 
 
@@ -126,13 +120,12 @@ A single column with a central heading with social media icons below this, these
  * [HTML](https://en.wikipedia.org/wiki/HTML)
  * [CSS](https://en.wikipedia.org/wiki/CSS)
  * [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
- * Google API - maps and places.
- * Jquery
- 
+
  ### Libraries
  * [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
  * [Google fonts](https://fonts.google.com/)
  * [Fontawesome](https://fontawesome.com/)
+ * [Google API - maps and places](https://developers.google.com/maps/documentation/places/web-service/overview)
   
  ### Tools
  * [GitHub](https://github.com/)
@@ -144,6 +137,7 @@ A single column with a central heading with social media icons below this, these
  * [Coolors](https://coolors.co/)
  * [Chrome Dev Tools (incl Lighthouse)](https://developer.chrome.com/docs/devtools/)
  * [Unicorn Revealer (extension on Chrome Development Tools)](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB)
+ * [JSHint](https://jshint.com/)
 
 
 ## Testing
@@ -160,8 +154,10 @@ I also used the following to fine tune the process;
   - No issues were found with this [W3C HTML Validation](https://validator.w3.org/).
  * W3C CSS validator tool for CSS
   - No issues were found with this [W3C CSS Validation](https://jigsaw.w3.org/css-validator/#validate_by_input).
+ * JSHint (JSHint developer tools) a tool that detects errors and potential problems in JavaScript code.
+  - No issues were found with this
  * Lighthouse (chrome developer tools) for security and load times.
-  - No issues were found with this [Chrome Dev Tools (incl Lighthouse)](https://developer.chrome.com/docs/devtools/).
+  - A csp issue was found with this [Chrome Dev Tools (incl Lighthouse)](https://developer.chrome.com/docs/devtools/).
 
 ### Bugs and Solutions
 #### Google Map - search
@@ -169,18 +165,22 @@ I also used the following to fine tune the process;
 - *Fix* - I was able to resolve the issue with the use of the DOM to olace the search value on the search criteria after review the relavant lesson..
 - *Verdict* - When the city is selected, the selection returns the requested information.
 
-#### Google Map
+#### Google Map - viewed on mobile devices
 - *Bug* - When the website is viewed on mobile devices google maps is not reponsive. The embed map using iframe returns a "X-Frame-Options' to 'sameorigin'", 
           using comments in stackoverflow there were solutions that required server access or more advanced javascipt/php solutions.
 - *Fix* - When reviewing the code and referring to the course and w3schools I used the @media to revise the google map width.
 - *Verdict* - The google map is now reponsive in mobile devices.
 
-#### Google Map
+#### Google Map - standard map markers.
+
+- *Bug* -The standard map returned after the search also contains markers for businesses and points of interests which could cause the user confusion with the markers reyurned from the user search
+- *Fix* - Changing from the standard map style to 'satellite' resolved the issue, leaaving only the markers from the users search.
+ - *Verdict* - Th user is left with only the markers fro.
+
+#### Google Map - csp issue.
 
 - *Bug* -The standard map returne after the search also contains markers for businesses and points of interests which could cause the user confusion..
 - *Fix* - It was identified that a forward slash was the cause of the error and once removed the pdf correcting opened.
- ![image](https://user-images.githubusercontent.com/85559896/126046441-656b736d-758f-428c-b525-b6e258c88a87.png)
- ![image](https://user-images.githubusercontent.com/85559896/126046446-b0af37d1-8405-4263-b0f9-2ad196934eab.png)
  - *Verdict* - The PDF download correctly opens in a new page.
 
 ## Deployment
