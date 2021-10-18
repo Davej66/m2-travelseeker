@@ -86,31 +86,31 @@ The 'sticky' in position gives a professional and pleasing style for the website
 The returned information is accessed using a google maps key that accesse local information for those from google places.
 
 #### About Us
-![image](https://user-images.githubusercontent.com/85559896/126043198-0c955a75-2a78-4553-a3b5-4b61db686877.png)
+![image](https://user-images.githubusercontent.com/85559896/137724170-5b7886fb-e37e-4a28-895d-3d1cb4331f46.png)
 
  In bootstrap a single column has been created and a brief statement about the gym.
 
 #### Search
-![image](https://user-images.githubusercontent.com/85559896/126043617-164b2a80-d187-49a5-9ea5-b442a62a8970.png)
+![image](https://user-images.githubusercontent.com/85559896/137724246-ac944bc1-7900-47bb-a3fc-6b54cb359935.png)
 
 A header and sub-header have been added to display some text, in this section bootstrap generates two each sized columns with two rows with a total of 4 images displayed within these. When in *xs* and *small* display two images are hidden to improve the user experience.
 
 #### Results
-![image](https://user-images.githubusercontent.com/85559896/126050145-7bd10763-c63a-4a29-98b9-f1e76bc64e73.png)
+![image](https://user-images.githubusercontent.com/85559896/137724355-3d92a7e8-a5ce-4de1-b1b4-899b6b39488b.png)
 
  A header is above three equal sized columns with three rows. In column 1 is the text describing classes held at the gym with a sub-header. In columns 2 and three are images reflective of the text beside them a total of six images. When in *xs* and *small* display three images are hidden to improve the user experience.
  
 
 
 #### Contact Us
-![image](https://user-images.githubusercontent.com/85559896/126045358-361d1f18-6840-4b74-a840-54d9dcd8e508.png)
+![image](https://user-images.githubusercontent.com/85559896/137724764-fed96e5e-2adc-42d4-854d-92c15ab97fb0.png)
 
 A header is above two columns and a single row. In column one is the address of the gym with a google map of its location below this. The google map used in the contact us section does locate the gym's location correctly because I have used the map from the previous business's map and when launched in a new paged gives this not dissolved business details. This is not ideal and in the update a new google map unique to the gym will be generated from the google map application. 
 
 Below the map are the opening times of the gym. In column two the gym's telephone is again shown to allow the user an opportunity to note the number and contact directly by telephone or to contact the gym using the contact forms provided.
 
 #### Footer
-![image](https://user-images.githubusercontent.com/85559896/126045440-916fd12b-766d-454b-9658-837527ac8103.png)
+![image](https://user-images.githubusercontent.com/85559896/137724906-9fb53f1a-a71e-46a4-a5e7-8cb4c4b44afe.png)
 A single column with a central heading with social media icons below this, these open in a new page when selected.
 
 
