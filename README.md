@@ -62,11 +62,11 @@ The use of icons has been kept the minimum and from the [Fontawesome](https://fo
 ### Colours
 The colour scheme used for the website was a green background with golden lettering. I chose these colours because i wanted the user to feel an air of quality and exclusivity, from previous subconscious experience. This colour scheme is like that used by Rolex and Wimbledon tennis tournament (this was underway during the design process). I hoped the clientele for the gym would be familiar with these and connect those entities of quality and would also be associated with the gym.
 
-The original colours for the background was #277676 and the text was #EC9209 but after running a colour contrast test on the [Coolors](https://coolors.co/) website it scored badly and with a subtle change a better scored was achieved without losing the "quality" look of the website.
+
 
 ![Original palette (DFG)](https://user-images.githubusercontent.com/85559896/126037957-8f84df7a-8b9d-4f85-8568-888c61a50b5b.png)
 
-The final colours now for the background are #0B2222 and the text #FAC16B but the text on the light areas continued to score badly so these were changed from #EC9209 to #0B2222 and the background colour to #FBFBFB from #FFFFFF.
+
 
 ![Final palette(DFG)](https://user-images.githubusercontent.com/85559896/126037963-e66dd5c7-931f-488b-8fa9-a4e317cb9327.png)
 
