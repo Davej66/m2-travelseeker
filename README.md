@@ -80,8 +80,7 @@ For my website I chose to use [Bootstrap](https://getbootstrap.com/). Bootstrap 
 ## Features
 ### Existing Features
 #### Navigation
-![image](https://user-images.githubusercontent.com/85559896/126043192-2d47a74f-17bd-456c-b2e0-82fad1a40c0d.png)
-
+![image](C:\Users\Dell Latitude\Pictures\1 coursework\-m2\header.png)
 Using Bootstrap and keeping its styling consistent ith the rest of the website the navbar. The navbar is responsive with a collapsible menu, accessed via a burger icon.
 The 'sticky' in position gives a professional and pleasing style for the website.
 The returned information is accessed using a google maps key that accesse local information for those from google places.
