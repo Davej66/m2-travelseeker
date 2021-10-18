@@ -8,15 +8,6 @@
     padding-right: 0;
 }
 
-.pdset{
-    padding-left: 0;
-    padding-right: 0; 
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
 body {
   background-color: #fbfbfb ;
   text-align: center;
@@ -32,10 +23,7 @@ p {
 .section-head {
     background-color: #fbfbfb;
     text-align: center;
-}
-
-.subhead {
-        text-align: center;
+    padding-top: 1rem;
 }
 
 .bg-color-main {
@@ -58,12 +46,6 @@ p {
     font-family: "Roboto", sans-serif;
     color: #FAC16B;
 }
-
-
-.section-head {
-    padding-top: 1rem;
-}
-
 
 /**Map**/
 
@@ -96,9 +78,7 @@ html,
         display: flex;
         left: 10px;
         top: 0;
-        /*left: 0;*/
         position: relative;
-        /*top: 290px;*/
         width: 340px;
         z-index: 1;
       }
@@ -113,12 +93,9 @@ html,
       #listing {
         position: relative;
         width: 200px;
-        height: 350px;
+        height: 320px;
         overflow: auto;
-        /*top: -50%;
-        left: 56%;*/
         left: 02px;
-        top: -10px;
         cursor: pointer;
         overflow-x: hidden;
         text-align: justify;
@@ -195,14 +172,12 @@ html,
       width: 300px;
       margin-left: 20px;
     }
-    #results {
-       display: none;
-    }
+    
     #listing {
-      width: 0px;
+      width: 100px;
     }
     #resultsTable {
-      width: 0px;
+      width:100px;
     }
 }
 
@@ -214,48 +189,12 @@ html,
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* logo */
 
 .logo {
     padding-top: 1rem;
     padding-left: 0;
     padding-right: 0;
-    /*max-width:19rem;*/
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -263,14 +202,8 @@ html,
     height: auto;
     }
 
-.headerStyle {
-  padding-left: 0;
-  padding-right: 0;
-}
-    
-
-
 /* NAV */
+
 .navbar-stick {
     display: flex;
     top: 0;
@@ -303,23 +236,6 @@ html,
     color: #f1ef5e;
     transition-duration: .5s;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ----------------------------------------Footer */
 
