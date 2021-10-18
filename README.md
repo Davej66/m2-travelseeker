@@ -1,7 +1,7 @@
 
 # TravelSeeker
 
-![image](https://user-images.githubusercontent.com/85559896/125904016-89fec847-0159-4816-8681-4a443c29799a.png)
+![image](/assets/images/TravelseekerPage.png)
 
 
 ## Objectives of the project
