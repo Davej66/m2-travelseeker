@@ -117,7 +117,7 @@ function search() {
     types: [document.getElementById("searchX").value],
   };
   
-  places.nearbySearch(search, (results, status, pagination) => {
+  places.nearbySearch(search, (results, status) => {
     if (status === google.maps.places.PlacesServiceStatus.OK && results) {
       clearResults();
       clearMarkers();

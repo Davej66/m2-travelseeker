@@ -139,7 +139,7 @@ html,
       
       #resultsTable {
         border-collapse: collapse;
-        width: 340px;
+        width: 240px;
       }
       
       #rating {
@@ -168,16 +168,22 @@ html,
       /* For Mobile */
 @media screen and (max-width: 539px) {
     #map {
-      margin-top: 40px;
-      width: 300px;
-      margin-left: 20px;
+      margin-top: 120px;
+      width: 250px;
+      margin-left: 30px;
     }
     
     #listing {
-      width: 100px;
+      position: absolute;
+      width: 820px;
+      left: 10px;
+      text-align: left;
+      top: 470px;
+      height: 200px;
     }
     #resultsTable {
-      width:100px;
+      border-collapse: collapse;
+      width: 340px;
     }
 }
 
