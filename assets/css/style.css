@@ -117,7 +117,7 @@ html,
         /*top: -50%;
         left: 56%;*/
         left: 02px;
-        top: 10px;
+        top: -10px;
         cursor: pointer;
         overflow-x: hidden;
         text-align: justify;
@@ -260,7 +260,7 @@ html,
     height: auto;
     }
     
-}
+
 
 /* NAV */
 .navbar-stick {
