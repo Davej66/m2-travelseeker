@@ -1,5 +1,3 @@
-![GitHub Logo] (../assets/images/M2-Travelseeker.png)
-
 
 # TravelSeeker
 
@@ -77,7 +75,7 @@ For my website I chose to use [Bootstrap](https://getbootstrap.com/). Bootstrap 
 
 ## Wireframes
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Desktop &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Tablet &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Mobile  
-![wireframes](https://user-images.githubusercontent.com/85559896/126038379-6d1148af-25cf-4d56-bf0b-9d3086952eef.png)
+![image](./assets/images/M2-Travelseeker.png)
 
 ## Features
 ### Existing Features
