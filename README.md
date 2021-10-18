@@ -202,10 +202,9 @@ I have used the following 4 websites to gather inspiration for content.
 - https://www.tripadvisor.co.uk/
 - https://www.stackflow.com/
 - https://www.google.com/
-- https://pxhere.com/
+- https://www.w3schools.com/
 
-I used pxhere to obtain commercially free to use images for this site.
-The code for the "Jumbotron" was taken from the codeinsitute as was much of the remaining coding used in this project.
+The majority of the functionality of the website uses google maps API code for places. The knowledge gained from the course was used to adapt this code to return the desired infornation, That was a wealth of infornation and code in the google documentation. The w3school provide the core of the code used to launch the bootstrap 5 modal, moulding it for use in this website.
 
 ## Acknowledgements
 
