@@ -5,11 +5,10 @@
 
 
 ## Objectives of the project
-The objective of the website is point the user to accommodation, places to eat and places of interest in the selected city. 
+The objective of the website is provide the user the information about the various range of options for accommodation, places to eat and places of interest in their selected city. Using the global information Google has access to the visitor to the site will be able to make use of this valuable source of information via this website.
                 `
 ## UX
-
-It will be available for user from all over thw world as the results offered from the search
+The user visiting the site will be able to access information for a specific city anywhere in the world that Google places has data which is vast. It will be prsented in a format that doesn't overwhelm the user visiting the site, but if a specific venue has been selected that the Google webpage opened in a new page will allow them to delve furthe into the information for it from Google.
 
 
 ## User Goals
@@ -23,9 +22,8 @@ It will be available for user from all over thw world as the results offered fro
 
 
 ## User Stories
-  * As a user, I want to know the location and opening times of the gym.
-  * As a user, I want to find information about yhe location selected.
-  * As a user, I want to able to contact the gym.
+  * As a user, I want to given information about possible travel locations easily and swiftly..
+  * As a user, I want to able to contact the website to recieve information about travel destinationations.
   * As a user, I want to find a website that is easy to navigate.
   * As a user, I want the website to be intuitive as this will leave me with a positive attitude towards learning more.
   * As a user, I want to feel that I will get a swift response from the contact form inquiry submission.
@@ -60,16 +58,17 @@ I have used the "Roboto" font from [Google Fonts](https://fonts.google.com/) and
 The use of icons has been kept the minimum and from the [Fontawesome](https://fontawesome.com/) library and use them for social media and a download option.
 
 ### Colours
-The colour scheme used for the website was a green background with golden lettering. I chose these colours because i wanted the user to feel an air of quality and exclusivity, from previous subconscious experience. This colour scheme is like that used by Rolex and Wimbledon tennis tournament (this was underway during the design process). I hoped the clientele for the gym would be familiar with these and connect those entities of quality and would also be associated with the gym.
+The colour scheme used for the website was a blue header with an off-white background colour #fbfbfb with black lettering for 85% of the webpage. I chose these colours because i wanted the user to have a 'blue planet feel' using a #44b9f0 colour.
 ![image](https://user-images.githubusercontent.com/85559896/137807331-313b19e1-9869-4a80-9a0a-1d31d3d99447.png)
-
+The footer containing the social media icons has a black background with the social media icons with a colour #FAC16B. The colours are subtle so that the user is not overwhelmed by a garish clash of colour and distracts from the information returned.
 
 ### Structure
 For my website I chose to use [Bootstrap](https://getbootstrap.com/). Bootstrap is a library of HTML, CSS & JavaScript, & API's focused on mobile first. As this is the primary format for the website to be displayed it helps improve the website presentation on a mobile device.
 
 ## Wireframes
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Desktop &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Tablet &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Mobile  
-![image](./assets/images/M2-Travelseeker.png)
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Desktop &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Tablet &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Mobile  
+![M2-wireframe](https://user-images.githubusercontent.com/85559896/137855462-4558da39-267f-4c0c-91d1-e4e24329bcde.png)
+
 
 ## Features
 ### Existing Features
@@ -169,13 +168,13 @@ I also used the following to fine tune the process;
 
 - *Bug* -The standard map returned after the search also contains markers for businesses and points of interests which could cause the user confusion with the markers reyurned from the user search
 - *Fix* - Changing from the standard map style to 'satellite' resolved the issue, leaaving only the markers from the users search.
- - *Verdict* - Th user is left with only the markers fro.
+ - *Verdict* - The user is left with only the markers from the search, so they can select venues they have requested.
 
 #### Google Map - csp issue.
 
 - *Bug* -The standard map returne after the search also contains markers for businesses and points of interests which could cause the user confusion..
-- *Fix* - It was identified that a forward slash was the cause of the error and once removed the pdf correcting opened.
- - *Verdict* - The PDF download correctly opens in a new page.
+- *Unresolved* - Researching google documentation and other users experience with this and their solutions. 
+- *Verdict* -  Continuing to research the possible solution, for this project and future projects implement google API's and depolying them in a website.
 
 ## Deployment
 
@@ -202,13 +201,12 @@ I have used the following 4 websites to gather inspiration for content.
 - https://www.tripadvisor.co.uk/
 - https://www.stackflow.com/
 - https://www.google.com/
-- https://pxhere.com/
+- https://www.w3schools.com/
 
-I used pxhere to obtain commercially free to use images for this site.
-The code for the "Jumbotron" was taken from the codeinsitute as was much of the remaining coding used in this project.
+The majority of the functionality of the website uses google maps API code for places. The knowledge gained from the course was used to adapt this code to return the desired infornation, That was a wealth of infornation and code in the google documentation. The w3school provide the core of the code used to launch the bootstrap 5 modal, moulding it for use in this website.
 
 ## Acknowledgements
 
-Thanking my mentor [Richard Wells](https://github.com/D0nni387/) for his invaluable guidance and support. His suggestions during the mid-review led to improvements to website and accelerated my development and comprehension, furthermore at the final review.
+Thanking my mentor [Richard Wells](https://github.com/D0nni387/) for his invaluable guidance and continuing support. His input during the mid-review, furthermore at the final review helped me attain a comprehensive search facility used in this project.
 
-Support from the slack community when seeking assistance for that gentle nudge in the right direction.
+Support from the slack community when seeking assistance for the wealth of infomation available.
