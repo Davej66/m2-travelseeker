@@ -2,11 +2,7 @@
 
 /* Global settings */
 
-.g-bk-color {
-    background-color: #44b9f0;
-    padding-left: 0;
-    padding-right: 0;
-}
+
 
 
 html,
@@ -18,7 +14,11 @@ body {
   padding: 0 !important;
 
 }
-
+.g-bk-color {
+  background-color: #44b9f0;
+  padding-left: 0;
+  padding-right: 0;
+}
 table {
   font-size: 12px;
 }
@@ -120,8 +120,6 @@ table {
   display: flex;
 }      
 
-
-
 /* logo */
 
 .logo {
@@ -142,7 +140,7 @@ table {
   top: 0;
   left: 0;
   position: sticky;
-  z-index: 999999;
+  z-index: 199;
 }
 
 .navbar-collapse {

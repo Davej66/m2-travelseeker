@@ -177,9 +177,7 @@ function setAutocompleteCountry() {
   clearResults();
   clearMarkers();
 }
-/**
- * This function drops the marker in the map
- */
+
 function dropMarker(i) {
   return function () {
     markers[i].setMap(map);
@@ -214,7 +212,9 @@ function addResult(result, i) {
   tr.appendChild(nameTd);
   results.appendChild(tr);
 }
-
+/**
+ * Clears results 
+ */
 function clearResults() {
   const results = document.getElementById("results");
 
