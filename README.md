@@ -168,13 +168,13 @@ I also used the following to fine tune the process;
 
 - *Bug* -The standard map returned after the search also contains markers for businesses and points of interests which could cause the user confusion with the markers reyurned from the user search
 - *Fix* - Changing from the standard map style to 'satellite' resolved the issue, leaaving only the markers from the users search.
- - *Verdict* - Th user is left with only the markers fro.
+ - *Verdict* - The user is left with only the markers from the search, so they can select venues they have requested.
 
 #### Google Map - csp issue.
 
 - *Bug* -The standard map returne after the search also contains markers for businesses and points of interests which could cause the user confusion..
-- *Fix* - It was identified that a forward slash was the cause of the error and once removed the pdf correcting opened.
- - *Verdict* - The PDF download correctly opens in a new page.
+- *Unresolved* - Researching google documentation and other users experience with this and their solutions. 
+- *Verdict* -  Continuing to research the possible solution, for this project and future projects implement google API's and deoplying them in a website.
 
 ## Deployment
 
