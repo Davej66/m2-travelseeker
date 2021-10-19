@@ -22,9 +22,8 @@ The user visiting the site will be able to access information for a specific cit
 
 
 ## User Stories
-  * As a user, I want to know the location and opening times of the gym.
-  * As a user, I want to find information about yhe location selected.
-  * As a user, I want to able to contact the gym.
+  * As a user, I want to given information about possible travel locations easily and swiftly..
+  * As a user, I want to able to contact the website to recieve information about travel destinationations.
   * As a user, I want to find a website that is easy to navigate.
   * As a user, I want the website to be intuitive as this will leave me with a positive attitude towards learning more.
   * As a user, I want to feel that I will get a swift response from the contact form inquiry submission.
@@ -61,7 +60,7 @@ The use of icons has been kept the minimum and from the [Fontawesome](https://fo
 ### Colours
 The colour scheme used for the website was a blue header with an off-white background colour #fbfbfb with black lettering for 85% of the webpage. I chose these colours because i wanted the user to have a 'blue planet feel' using a #44b9f0 colour.
 ![image](https://user-images.githubusercontent.com/85559896/137807331-313b19e1-9869-4a80-9a0a-1d31d3d99447.png)
-The footer containing the social media icons has a black background with the social media icons with a colour #FAC16B. 
+The footer containing the social media icons has a black background with the social media icons with a colour #FAC16B. The colours are subtle so that the user is not overwhelmed by a garish clash of colour and distracts from the information returned.
 
 ### Structure
 For my website I chose to use [Bootstrap](https://getbootstrap.com/). Bootstrap is a library of HTML, CSS & JavaScript, & API's focused on mobile first. As this is the primary format for the website to be displayed it helps improve the website presentation on a mobile device.
