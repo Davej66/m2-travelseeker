@@ -5,11 +5,10 @@
 
 
 ## Objectives of the project
-The objective of the website is point the user to accommodation, places to eat and places of interest in the selected city. 
+The objective of the website is provide the user the information about the various range of options for accommodation, places to eat and places of interest in their selected city. Using the global information Google has access to the visitor to the site will be able to make use of this valuable source of information via this website.
                 `
 ## UX
-
-It will be available for user from all over thw world as the results offered from the search
+The user visiting the site will be able to access information for a specific city anywhere in the world that Google places has data which is vast. It will be prsented in a format that doesn't overwhelm the user visiting the site, but if a specific venue has been selected that the Google webpage opened in a new page will allow them to delve furthe into the information for it from Google.
 
 
 ## User Goals
