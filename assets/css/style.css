@@ -140,7 +140,7 @@ table {
   top: 0;
   left: 0;
   position: sticky;
-  z-index: 199;
+  z-index: 1;
 }
 
 .navbar-collapse {

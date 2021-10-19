@@ -14,6 +14,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/brands.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="assets/js/index.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function() {
+        emailjs.init("user_ZxoxUKyZV5QUPclJz98mo");
+      })();
+    </script>
 
 </head>
 <body>
@@ -121,7 +127,7 @@
             </table>
           </div>
         <div>
-          </div>
+      </div>
           
     <div style="display: none">
       <div id="info-content">
@@ -177,28 +183,23 @@
       </div>
 
       <div class="modal-body">
-        <form action="index.html">
-              <div class="form-group">
-                <label for="firstname">First Name</label>
-                <input type="text" class="form-control" id="firstname" placeholder="First Name" aria-label="First Name" required>
-              </div>
-              <div class="form-group">
-                <label for="lastname">Last Name</label>
-                <input type="text" class="form-control" id="lastname" placeholder="Last Name" aria-label="Last Name" required>
-              </div>
-              <div class="form-group">
-                <label for="emailaddress">Email address</label>
-                <input type="email" class="form-control" id="emailaddress" placeholder="name@example.com"
-                aria-label="Email address" required>
-              </div>
-              <div class="form-group">
-                <label for="minfo">More Info</label>
-                <input type="text" class="form-control" id="minfo" placeholder="Enquiry? Booking? " aria-label="More Info" required>
-              </div>
-              <div class="text-center">
-                <button type="submit" class="btn btn-primary">Send</button>
-              </div>
-            </form>
+        <form action="index.html" onsubmit="return sendMail(this);">
+          <div class="form-group">
+            <label for="firstname">First Name</label>
+            <input type="text" class="form-control" id="firstname" placeholder="First Name" aria-label="First Name" required>
+          </div>
+          <div class="form-group">
+            <label for="emailaddress">Email address</label>
+            <input type="email" class="form-control" id="emailaddress" placeholder="name@example.com"
+            aria-label="Email address" required>
+          </div>
+          <div class="form-group">
+            <label for="minfo">More Info</label>
+            <input type="text" class="form-control" id="minfo" placeholder="Enquiry? Booking? " aria-label="More Info" required>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
       </div>
 
       <div class="modal-footer">
@@ -212,55 +213,53 @@
 
 <!---Footer-->
 
-  <footer class="container-fluid">
-    <div id="footer-details" class="row">  
-      <div class="col-sm-12 text-center">
-              <h4 class="uppercase general-sub">Social</h4>
-              <ul class="list-inline social-links">
-                  <li class="list-inline-item">
-                      <a target="_blank" href="http://www.facebook.com" rel="noopener">
-                          <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                          <span class="sr-only">Facebook</span>
-                      </a>
-                  </li>
-                  <li class="list-inline-item">
-                      <a target="_blank" href="http://www.twitter.com" rel="noopener">
-                          <i class="fab fa-twitter" aria-hidden="true"></i>
-                          <span class="sr-only">Twitter</span>
-                      </a>
-                  </li>
-                  <li class="list-inline-item">
-                      <a target="_blank" href="http://www.linkedin.com" rel="noopener">
-                          <i class="fab fa-linkedin" aria-hidden="true"></i>
-                          <span class="sr-only">LinkedIn</span>
-                      </a>
-                  </li>
-                  <li class="list-inline-item">
-                      <a target="_blank" href="http://www.pinterest.com" rel="noopener">
-                          <i class="fab fa-pinterest" aria-hidden="true"></i>
-                          <span class="sr-only">Pinterest</span>
-                      </a>
-                  </li>
-                  <li class="list-inline-item">
-                      <a target="_blank" href="http://www.instagram.com" rel="noopener">
-                          <i class="fab fa-instagram" aria-hidden="true"></i>
-                          <span class="sr-only">Instagram</span>
-                      </a>
-                  </li>
-                  <li class="list-inline-item">
-                      <a target="_blank" href="http://www.youtube.com" rel="noopener">
-                          <i class="fab fa-youtube" aria-hidden="true"></i>
-                          <span class="sr-only">YouTube</span>
-                      </a>
-                  </li>
-              </ul>
-          </div>
+<footer class="container-fluid">
+  <div id="footer-details" class="row">  
+    <div class="col-sm-12 text-center">
+      <h4 class="uppercase general-sub">Social</h4>
+      <ul class="list-inline social-links">
+        <li class="list-inline-item">
+            <a target="_blank" href="http://www.facebook.com" rel="noopener">
+                <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                <span class="sr-only">Facebook</span>
+            </a>
+        </li>
+        <li class="list-inline-item">
+            <a target="_blank" href="http://www.twitter.com" rel="noopener">
+                <i class="fab fa-twitter" aria-hidden="true"></i>
+                <span class="sr-only">Twitter</span>
+            </a>
+        </li>
+        <li class="list-inline-item">
+            <a target="_blank" href="http://www.linkedin.com" rel="noopener">
+                <i class="fab fa-linkedin" aria-hidden="true"></i>
+                <span class="sr-only">LinkedIn</span>
+            </a>
+        </li>
+        <li class="list-inline-item">
+            <a target="_blank" href="http://www.pinterest.com" rel="noopener">
+                <i class="fab fa-pinterest" aria-hidden="true"></i>
+                <span class="sr-only">Pinterest</span>
+            </a>
+        </li>
+        <li class="list-inline-item">
+            <a target="_blank" href="http://www.instagram.com" rel="noopener">
+                <i class="fab fa-instagram" aria-hidden="true"></i>
+                <span class="sr-only">Instagram</span>
+            </a>
+        </li>
+        <li class="list-inline-item">
+            <a target="_blank" href="http://www.youtube.com" rel="noopener">
+                <i class="fab fa-youtube" aria-hidden="true"></i>
+                <span class="sr-only">YouTube</span>
+            </a>
+        </li>
+    </ul>    
       </div>
-  
-    </footer>
+    </div>
+  </footer>  
    
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script> 
-      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 </body>
 </html>
