@@ -207,6 +207,6 @@ The majority of the functionality of the website uses google maps API code for p
 
 ## Acknowledgements
 
-Thanking my mentor [Richard Wells](https://github.com/D0nni387/) for his invaluable guidance and support. His suggestions during the mid-review led to improvements to website and accelerated my development and comprehension, furthermore at the final review.
+Thanking my mentor [Richard Wells](https://github.com/D0nni387/) for his invaluable guidance and continuing support. His input during the mid-review, furthermore at the final review helped me attain a comprehensive search facility used in this project.
 
-Support from the slack community when seeking assistance for that gentle nudge in the right direction.
+Support from the slack community when seeking assistance for the wealth of infomation available.
