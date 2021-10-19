@@ -174,7 +174,7 @@ I also used the following to fine tune the process;
 
 - *Bug* -The standard map returne after the search also contains markers for businesses and points of interests which could cause the user confusion..
 - *Unresolved* - Researching google documentation and other users experience with this and their solutions. 
-- *Verdict* -  Continuing to research the possible solution, for this project and future projects implement google API's and deoplying them in a website.
+- *Verdict* -  Continuing to research the possible solution, for this project and future projects implement google API's and depolying them in a website.
 
 ## Deployment
 
